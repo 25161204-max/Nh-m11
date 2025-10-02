@@ -29,10 +29,21 @@ jobs:
         <html>
         <head>
             <title>Nhóm 11 - GitHub Pages</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                h1 { color: #2c3e50; }
+                .member { background: #f8f9fa; padding: 10px; margin: 5px; border-radius: 5px; }
+            </style>
         </head>
         <body>
             <h1>Chào mừng đến với Nhóm 11</h1>
             <p>Đây là trang GitHub Pages của nhóm chúng tôi.</p>
+            <h2>Thành viên:</h2>
+            <div class="member">Thành viên 1</div>
+            <div class="member">Thành viên 2</div>
+            <div class="member">Thành viên 3</div>
+            <div class="member">Thành viên 4</div>
+            <div class="member">Thành viên 5</div>
         </body>
         </html>' > index.html
       
